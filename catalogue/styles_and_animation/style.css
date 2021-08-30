@@ -1,0 +1,152 @@
+body {
+    overflow: hidden;
+}
+img {
+    -webkit-user-select:none;
+    -khtml-user-select:none;
+    -moz-user-select:none;
+    -o-user-select:none;
+    user-select:none;
+    pointer-events:none 
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    padding: 10px;
+    display: flex;
+    background-color: #fff;
+    align-items: center;
+}
+.logo {
+    width: 60%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+}
+.logo img:first-child {
+    width: 18%;
+    margin-left: 10%;
+}
+.logo img:last-child {
+    width: 26%;
+    margin-left: 2%;
+    transition: .5s;
+}
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 180%;
+    padding-left: 4%;
+}
+.cta {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 11%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 53;
+
+}
+.cta img {
+    width: 50%;
+}
+.catalogue {
+    position: relative;
+    top: -1%;
+    left: 0;
+    width: 70%;
+    height: 86%;
+    transition: opacity .5s;
+    cursor: pointer;
+}
+.page-1, .page-2, .page-3, .page-4, .page-5, .page-6 {
+    position: absolute;
+    top: 0;
+    /* height: 84%; */
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+.page-1 img, .page-2 img, .page-3 img, .page-4 img, .page-5 img {
+    object-fit: fill;
+    width: 65%;
+    height: 100%;
+}
+.page-5 img {
+    margin-left: 21vw;
+}
+.page-4 img {
+    margin-left: 20.5vw;
+}
+.page-3 img {
+    margin-left: 20vw;
+}
+.page-2 img {
+    margin-left: 19.5vw;
+}
+.page-1 img {
+    margin-left: 19vw;
+}
+.page-1 {
+    z-index: 50;
+    left: -6vw;
+
+}
+.page-2 {
+    z-index: 49;
+    left: -5vw;
+
+}
+.page-3 {
+    z-index: 48;
+    left: -4vw;
+
+}
+.page-4 {
+    z-index: 47;
+    left: -3vw;
+}
+.page-5 {
+    z-index: 46;
+    left: -2vw;
+}
+.page-6 {
+    width: 67%;
+    z-index: 45;
+    right: 2vw;
+    background-color: #cbcabc;
+}
+.paper {
+    overflow: hidden;
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #cbcabc;
+    box-sizing: content-box;
+    box-shadow: inset -3px 0px 19px -11px black;
+}
+.paper > div {
+    position: absolute;
+    height: 100%;
+    width: 0.1px;
+    background-color: rgba(255,255,255,.6);
+    top: 0;
+    right: 3vw;
+    box-shadow: 0px 0px 25px 11px rgb(255 255 255 / 90%);
+}
+.fingerpointer {
+    position: absolute;
+    width: 40%;
+    height: auto;
+    top: 50%;
+    left: 40%;
+    z-index: 77;
+}
+h3.text {
+    font-size: 150%;
+    text-align: center;
+}

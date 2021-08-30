@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles_and_animation/style.css">
+    <link rel="stylesheet" href="./styles_and_animation/animation.css">
+    <title>Catalogue</title>
+</head>
+<body>
+    <div class="container">
+            <div class="catalogue">
+                <div class="page-1 animate-page">
+                    <img src="./assets/img5.jpeg">
+                    <div class="paper animate-paper"><div></div></div>
+                </div>
+                <div class="page-2">
+                    <img src="./assets/img2.jpeg">
+                    <div class="paper"><div></div></div>
+                </div>
+                <div class="page-3">
+                    <img src="./assets/img3.jpeg">
+                    <div class="paper"><div></div></div>
+                </div>
+                <div class="page-4">
+                    <img src="./assets/img4.jpeg">
+                    <div class="paper"><div></div></div>
+                </div>
+                <div class="page-5">
+                    <img src="./assets/img1.jpeg">
+                    <div class="paper"><div></div></div>
+                    <div class="start-again" onclick="event.stopPropagation()"></div>
+                    <div class="last-page"></div>
+                </div>
+                <div class="page-6">
+                    <h3 class="text">It's a last page. <br>Please, turn me back ;)</h3>
+                </div>
+            </div>
+
+
+            <div class="logo" onclick="event.stopPropagation()">
+                <img src="./assets/logo.jpeg">
+                <h1 class="text">Just Turn The Page And Back<br> 
+                    Simplicity In Details</h1>
+            </div>
+    </div>
+   
+   <script src="./dist/main.js"></script> 
+</body>
+</html>
